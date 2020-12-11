@@ -330,14 +330,32 @@ body{
     justify-content: center;
     padding: 5rem 0;
 }
-#projects .projects-container .project{
+#projects .projects-container .project-ehb{
     position: relative;
     width: 80vw;
     height: 35vh;
     margin: 2rem 0;
     padding: 2rem 0;
-    background-color: #a300af;
     border-radius: 2rem;
+    background-color: #551a8b;
+}
+#projects .projects-container .project-ahf{
+    position: relative;
+    width: 80vw;
+    height: 35vh;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    border-radius: 2rem;
+    background-color: rgb(206, 79, 147);
+}
+#projects .projects-container .project-ppi{
+    position: relative;
+    width: 80vw;
+    height: 35vh;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    border-radius: 2rem;
+    background-color: rgb(231, 183, 24);
 }
 #projects .projects-container .project .device{
         margin-bottom: 4rem;
@@ -362,6 +380,9 @@ body{
     top: 3rem;
     right: 3rem;
 }
+
+
+
 /* < - - - - - - - - - projects finished  - - - - - - - - > */
 #satisfaction{
     background-color: var(--clr-dark-);
@@ -981,13 +1002,31 @@ body{
         bottom: -2rem;
     }
 
-    #projects .projects-container .project{
+    #projects .projects-container .project-ehb{
         position: relative;
         width: 80vw;
         height: 25vh;
         margin: 2rem 0;
         padding: 2rem 0;
-        background-color: #a300af;
+        background-color: #551a8b;
+        border-radius: 2rem;
+    }
+    #projects .projects-container .project-ahf{
+        position: relative;
+        width: 80vw;
+        height: 25vh;
+        margin: 2rem 0;
+        padding: 2rem 0;
+        background-color: rgb(206, 79, 147);
+        border-radius: 2rem;
+    }
+    #projects .projects-container .project-ppi{
+        position: relative;
+        width: 80vw;
+        height: 25vh;
+        margin: 2rem 0;
+        padding: 2rem 0;
+        background-color: rgb(231, 183, 24);
         border-radius: 2rem;
     }
 
